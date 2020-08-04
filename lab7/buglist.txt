@@ -1,0 +1,6 @@
+Filename: buglist.txt
+Author:	Eric Seals
+
+1. isEmpty() always returns empty.
+2. removeBack() does not do anything.
+3. removeFront() does not do anything.

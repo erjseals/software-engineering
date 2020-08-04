@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <meta name= "viewport" content ="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Confirmation</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/exerciseOne.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Password Confirmation</h1>
+
+        <p id="firstPassword">Insert Password:</p>
+        <input type="text" class="border-gradient" id="input1" >
+        <p id="secondPassword">Confirm Password:</p>
+        <input type="text" class="border-gradient" id="input2" ><br>
+
+        <button type="submit" onclick="myFunc()">Validate</button>
+
+    <script src="scripts/exerciseOne.js"></script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <meta name= "viewport" content ="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>s l i d e  s h o w</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/exerciseTwo.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>s l i d e  s h o w</h1>
+        <div class = "slideshow">
+            
+            <div class = "slides">
+                <img src="images/image01.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image02.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image03.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image04.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image05.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image06.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image07.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image08.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image09.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image10.jpg" style="width:100%">
+            </div>
+
+            <div class = "slides">
+                <img src="images/image11.jpg" style="width:100%">
+            </div>
+
+        
+            <button class="leftRightButton" onclick="myFuncRight()">r i g h t</button>
+            <button class="leftRightButton" onclick="myFuncLeft()">l e f t</button>
+        </div>        
+
+    <script src="scripts/exerciseTwo.js"></script>
+
+
+
+  </body>
+</html>

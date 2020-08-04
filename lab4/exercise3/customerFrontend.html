@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <meta name= "viewport" content ="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise Three</title>
+    <link href="styles/googleStyles.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1> Online Store </h1>
+        <form onsubmit="return formChecker()" action="customerBackend.php" method="post">
+            
+            <div class = "personalInformation">
+                <p>Username:</p>
+                <input class="border-gradient" type ="text" name="username" id="username">
+                <p>Password:</p>
+                <input class="border-gradient" type ="text" name="password" id="password">
+                <br>
+            </div>    
+        <p>Select Your Items</p>
+            <div class = "shoppingInformation">
+                1975 Peugot $300<br><input class="border-gradient" name="Peugot" type="number" min="0" value="0" id="Peugot">
+                1983 Bianchi $350<br><input class="border-gradient" name="Bianchi" type="number" min="0" value="0" id="Bianchi">
+                1978 Schwinn $270<br><input class="border-gradient" name="Schwinn" type="number" min="0" value="0" id="Schwinn">
+            </div>
+        <p>Select Your Shipping</p>
+            <div class = "shippingInformation">
+                7 day Free<br><input type="radio" name="shipping" value="Free"checked>
+                $50.00 over night<br><input type="radio" name="shipping" value="Overnight">
+                $5.00 three day<br><input type="radio" name="shipping" value="Threeday">
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        
+        <script src="formChecker.js"></script>
+  </body>
+</html>
